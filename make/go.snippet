@@ -1,0 +1,7 @@
+include $(GOROOT)/src/Make.inc
+
+TARG=${1:package_name}
+GOFILES=\
+		${2:file.go}
+
+include $(GOROOT)/src/Make.pkg
